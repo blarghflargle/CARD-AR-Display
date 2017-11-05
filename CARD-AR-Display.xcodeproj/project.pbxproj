@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CF0DDDA1FAED1A30055D0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF0DDD91FAED1A30055D0C9 /* AppDelegate.swift */; };
+		8CF0DDDC1FAED1A30055D0C9 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0DDDB1FAED1A30055D0C9 /* Scene.sks */; };
+		8CF0DDDE1FAED1A30055D0C9 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF0DDDD1FAED1A30055D0C9 /* Scene.swift */; };
+		8CF0DDE01FAED1A30055D0C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF0DDDF1FAED1A30055D0C9 /* ViewController.swift */; };
+		8CF0DDE31FAED1A30055D0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0DDE11FAED1A30055D0C9 /* Main.storyboard */; };
+		8CF0DDE51FAED1A30055D0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0DDE41FAED1A30055D0C9 /* Assets.xcassets */; };
+		8CF0DDE81FAED1A30055D0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0DDE61FAED1A30055D0C9 /* LaunchScreen.storyboard */; };
+		8CF0DDF31FAED1A30055D0C9 /* CARD_AR_DisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF0DDF21FAED1A30055D0C9 /* CARD_AR_DisplayTests.swift */; };
+		8CF0DDFE1FAED1A30055D0C9 /* CARD_AR_DisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF0DDFD1FAED1A30055D0C9 /* CARD_AR_DisplayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF0DDEF1FAED1A30055D0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF0DDCE1FAED1A30055D0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF0DDD51FAED1A30055D0C9;
+			remoteInfo = "CARD-AR-Display";
+		};
+		8CF0DDFA1FAED1A30055D0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF0DDCE1FAED1A30055D0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF0DDD51FAED1A30055D0C9;
+			remoteInfo = "CARD-AR-Display";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CF0DDD61FAED1A30055D0C9 /* CARD-AR-Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CARD-AR-Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF0DDD91FAED1A30055D0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CF0DDDB1FAED1A30055D0C9 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		8CF0DDDD1FAED1A30055D0C9 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		8CF0DDDF1FAED1A30055D0C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CF0DDE21FAED1A30055D0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CF0DDE41FAED1A30055D0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF0DDE71FAED1A30055D0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CF0DDE91FAED1A30055D0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF0DDEE1FAED1A30055D0C9 /* CARD-AR-DisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CARD-AR-DisplayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF0DDF21FAED1A30055D0C9 /* CARD_AR_DisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARD_AR_DisplayTests.swift; sourceTree = "<group>"; };
+		8CF0DDF41FAED1A30055D0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF0DDF91FAED1A30055D0C9 /* CARD-AR-DisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CARD-AR-DisplayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF0DDFD1FAED1A30055D0C9 /* CARD_AR_DisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARD_AR_DisplayUITests.swift; sourceTree = "<group>"; };
+		8CF0DDFF1FAED1A30055D0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF0DDD31FAED1A30055D0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF0DDEB1FAED1A30055D0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF0DDF61FAED1A30055D0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF0DDCD1FAED1A30055D0C9 = {
+			isa = PBXGroup;
+			children = (
+				8CF0DDD81FAED1A30055D0C9 /* CARD-AR-Display */,
+				8CF0DDF11FAED1A30055D0C9 /* CARD-AR-DisplayTests */,
+				8CF0DDFC1FAED1A30055D0C9 /* CARD-AR-DisplayUITests */,
+				8CF0DDD71FAED1A30055D0C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF0DDD71FAED1A30055D0C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF0DDD61FAED1A30055D0C9 /* CARD-AR-Display.app */,
+				8CF0DDEE1FAED1A30055D0C9 /* CARD-AR-DisplayTests.xctest */,
+				8CF0DDF91FAED1A30055D0C9 /* CARD-AR-DisplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF0DDD81FAED1A30055D0C9 /* CARD-AR-Display */ = {
+			isa = PBXGroup;
+			children = (
+				8CF0DDD91FAED1A30055D0C9 /* AppDelegate.swift */,
+				8CF0DDDB1FAED1A30055D0C9 /* Scene.sks */,
+				8CF0DDDD1FAED1A30055D0C9 /* Scene.swift */,
+				8CF0DDDF1FAED1A30055D0C9 /* ViewController.swift */,
+				8CF0DDE11FAED1A30055D0C9 /* Main.storyboard */,
+				8CF0DDE41FAED1A30055D0C9 /* Assets.xcassets */,
+				8CF0DDE61FAED1A30055D0C9 /* LaunchScreen.storyboard */,
+				8CF0DDE91FAED1A30055D0C9 /* Info.plist */,
+			);
+			path = "CARD-AR-Display";
+			sourceTree = "<group>";
+		};
+		8CF0DDF11FAED1A30055D0C9 /* CARD-AR-DisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF0DDF21FAED1A30055D0C9 /* CARD_AR_DisplayTests.swift */,
+				8CF0DDF41FAED1A30055D0C9 /* Info.plist */,
+			);
+			path = "CARD-AR-DisplayTests";
+			sourceTree = "<group>";
+		};
+		8CF0DDFC1FAED1A30055D0C9 /* CARD-AR-DisplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF0DDFD1FAED1A30055D0C9 /* CARD_AR_DisplayUITests.swift */,
+				8CF0DDFF1FAED1A30055D0C9 /* Info.plist */,
+			);
+			path = "CARD-AR-DisplayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF0DDD51FAED1A30055D0C9 /* CARD-AR-Display */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF0DE021FAED1A30055D0C9 /* Build configuration list for PBXNativeTarget "CARD-AR-Display" */;
+			buildPhases = (
+				8CF0DDD21FAED1A30055D0C9 /* Sources */,
+				8CF0DDD31FAED1A30055D0C9 /* Frameworks */,
+				8CF0DDD41FAED1A30055D0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CARD-AR-Display";
+			productName = "CARD-AR-Display";
+			productReference = 8CF0DDD61FAED1A30055D0C9 /* CARD-AR-Display.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CF0DDED1FAED1A30055D0C9 /* CARD-AR-DisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF0DE051FAED1A30055D0C9 /* Build configuration list for PBXNativeTarget "CARD-AR-DisplayTests" */;
+			buildPhases = (
+				8CF0DDEA1FAED1A30055D0C9 /* Sources */,
+				8CF0DDEB1FAED1A30055D0C9 /* Frameworks */,
+				8CF0DDEC1FAED1A30055D0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF0DDF01FAED1A30055D0C9 /* PBXTargetDependency */,
+			);
+			name = "CARD-AR-DisplayTests";
+			productName = "CARD-AR-DisplayTests";
+			productReference = 8CF0DDEE1FAED1A30055D0C9 /* CARD-AR-DisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CF0DDF81FAED1A30055D0C9 /* CARD-AR-DisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF0DE081FAED1A30055D0C9 /* Build configuration list for PBXNativeTarget "CARD-AR-DisplayUITests" */;
+			buildPhases = (
+				8CF0DDF51FAED1A30055D0C9 /* Sources */,
+				8CF0DDF61FAED1A30055D0C9 /* Frameworks */,
+				8CF0DDF71FAED1A30055D0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF0DDFB1FAED1A30055D0C9 /* PBXTargetDependency */,
+			);
+			name = "CARD-AR-DisplayUITests";
+			productName = "CARD-AR-DisplayUITests";
+			productReference = 8CF0DDF91FAED1A30055D0C9 /* CARD-AR-DisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF0DDCE1FAED1A30055D0C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Alectryon;
+				TargetAttributes = {
+					8CF0DDD51FAED1A30055D0C9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					8CF0DDED1FAED1A30055D0C9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CF0DDD51FAED1A30055D0C9;
+					};
+					8CF0DDF81FAED1A30055D0C9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CF0DDD51FAED1A30055D0C9;
+					};
+				};
+			};
+			buildConfigurationList = 8CF0DDD11FAED1A30055D0C9 /* Build configuration list for PBXProject "CARD-AR-Display" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CF0DDCD1FAED1A30055D0C9;
+			productRefGroup = 8CF0DDD71FAED1A30055D0C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF0DDD51FAED1A30055D0C9 /* CARD-AR-Display */,
+				8CF0DDED1FAED1A30055D0C9 /* CARD-AR-DisplayTests */,
+				8CF0DDF81FAED1A30055D0C9 /* CARD-AR-DisplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF0DDD41FAED1A30055D0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF0DDDC1FAED1A30055D0C9 /* Scene.sks in Resources */,
+				8CF0DDE81FAED1A30055D0C9 /* LaunchScreen.storyboard in Resources */,
+				8CF0DDE51FAED1A30055D0C9 /* Assets.xcassets in Resources */,
+				8CF0DDE31FAED1A30055D0C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF0DDEC1FAED1A30055D0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF0DDF71FAED1A30055D0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF0DDD21FAED1A30055D0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF0DDE01FAED1A30055D0C9 /* ViewController.swift in Sources */,
+				8CF0DDDE1FAED1A30055D0C9 /* Scene.swift in Sources */,
+				8CF0DDDA1FAED1A30055D0C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF0DDEA1FAED1A30055D0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF0DDF31FAED1A30055D0C9 /* CARD_AR_DisplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF0DDF51FAED1A30055D0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF0DDFE1FAED1A30055D0C9 /* CARD_AR_DisplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF0DDF01FAED1A30055D0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF0DDD51FAED1A30055D0C9 /* CARD-AR-Display */;
+			targetProxy = 8CF0DDEF1FAED1A30055D0C9 /* PBXContainerItemProxy */;
+		};
+		8CF0DDFB1FAED1A30055D0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF0DDD51FAED1A30055D0C9 /* CARD-AR-Display */;
+			targetProxy = 8CF0DDFA1FAED1A30055D0C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CF0DDE11FAED1A30055D0C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF0DDE21FAED1A30055D0C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CF0DDE61FAED1A30055D0C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF0DDE71FAED1A30055D0C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF0DE001FAED1A30055D0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CF0DE011FAED1A30055D0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CF0DE031FAED1A30055D0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXLUWNUQEY;
+				INFOPLIST_FILE = "CARD-AR-Display/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alectryon.CARD-AR-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CF0DE041FAED1A30055D0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXLUWNUQEY;
+				INFOPLIST_FILE = "CARD-AR-Display/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alectryon.CARD-AR-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CF0DE061FAED1A30055D0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXLUWNUQEY;
+				INFOPLIST_FILE = "CARD-AR-DisplayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alectryon.CARD-AR-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CARD-AR-Display.app/CARD-AR-Display";
+			};
+			name = Debug;
+		};
+		8CF0DE071FAED1A30055D0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXLUWNUQEY;
+				INFOPLIST_FILE = "CARD-AR-DisplayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alectryon.CARD-AR-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CARD-AR-Display.app/CARD-AR-Display";
+			};
+			name = Release;
+		};
+		8CF0DE091FAED1A30055D0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXLUWNUQEY;
+				INFOPLIST_FILE = "CARD-AR-DisplayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alectryon.CARD-AR-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CARD-AR-Display";
+			};
+			name = Debug;
+		};
+		8CF0DE0A1FAED1A30055D0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXLUWNUQEY;
+				INFOPLIST_FILE = "CARD-AR-DisplayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alectryon.CARD-AR-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CARD-AR-Display";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF0DDD11FAED1A30055D0C9 /* Build configuration list for PBXProject "CARD-AR-Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF0DE001FAED1A30055D0C9 /* Debug */,
+				8CF0DE011FAED1A30055D0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF0DE021FAED1A30055D0C9 /* Build configuration list for PBXNativeTarget "CARD-AR-Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF0DE031FAED1A30055D0C9 /* Debug */,
+				8CF0DE041FAED1A30055D0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF0DE051FAED1A30055D0C9 /* Build configuration list for PBXNativeTarget "CARD-AR-DisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF0DE061FAED1A30055D0C9 /* Debug */,
+				8CF0DE071FAED1A30055D0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF0DE081FAED1A30055D0C9 /* Build configuration list for PBXNativeTarget "CARD-AR-DisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF0DE091FAED1A30055D0C9 /* Debug */,
+				8CF0DE0A1FAED1A30055D0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF0DDCE1FAED1A30055D0C9 /* Project object */;
+}
